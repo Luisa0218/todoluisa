@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todoluisa.Common", "todoluisa.Common\todoluisa.Common.csproj", "{7DED0340-6E75-49AE-A101-52F093BC1B6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todoluisa.Common", "todoluisa.Common\todoluisa.Common.csproj", "{7DED0340-6E75-49AE-A101-52F093BC1B6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todoluisa.Functions", "todoluisa.Functions\todoluisa.Functions.csproj", "{170FD9E4-CA01-43D4-8154-EB83F2EF40E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todoluisa.Functions", "todoluisa.Functions\todoluisa.Functions.csproj", "{170FD9E4-CA01-43D4-8154-EB83F2EF40E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todoluisa.Test", "todoluisa.Test\todoluisa.Test.csproj", "{F834B2C7-1666-4E21-A686-1180A3334E47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todoluisa.Test", "todoluisa.Test\todoluisa.Test.csproj", "{F834B2C7-1666-4E21-A686-1180A3334E47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
