@@ -103,7 +103,7 @@ namespace todoluisa.Functions.Functions
 
 
             //Update todo
-            TodoEntity todoEntity = (TodoEntity)findResult.Result;
+           TodoEntity todoEntity = (TodoEntity)findResult.Result;
             todoEntity.IsCompleted = todo.IsCompleted;
 
             if (!String.IsNullOrEmpty(todo.TaskDescription))
@@ -138,7 +138,7 @@ namespace todoluisa.Functions.Functions
             log.LogInformation("Get all todos received");
 
             TableQuery<TodoEntity> query = new TableQuery<TodoEntity>();
-            TableQuerySegment<TodoEntity> todos = await todoTable.ExecuteQuerySegmentedAsync(query, null);
+            TableQuerySegment<Entities.TodoEntity> todos = await todoTable.ExecuteQuerySegmentedAsync(query, null);
 
             string message = "Retrieved all todos";
             log.LogInformation(message);
