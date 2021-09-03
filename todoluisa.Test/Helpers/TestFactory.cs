@@ -14,8 +14,7 @@ namespace todoluisa.Test.Helpers
 {
     public class TestFactory
 
-    {
-        private static char stringToConvert;
+    { 
 
         public static TodoEntity GetTodoEntity()
         {
@@ -84,7 +83,7 @@ namespace todoluisa.Test.Helpers
         }
 
 
-        public static Stream GenerateStreamFromString(string stringTocovert)
+        public static Stream GenerateStreamFromString(string stringToConvert)
         {
             MemoryStream stream = new MemoryStream();
             StreamWriter writer = new StreamWriter(stream);

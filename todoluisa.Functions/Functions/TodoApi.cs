@@ -62,7 +62,6 @@ namespace todoluisa.Functions.Functions
 
 
             return new OkObjectResult(new Response
-
             {
                 IsSuccess = true,
                 Message = message,
